@@ -1,0 +1,21 @@
+
+.mainText{
+    margin-left: 390px;
+}
+
+.mainText-arte{
+    margin-left: 47% ;
+}
+
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-section > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}

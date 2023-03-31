@@ -1,0 +1,22 @@
+
+.art-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1190px;
+    margin:  0 auto;
+    grid-gap: 20px;
+}
+
+.art-section > div:nth-child(n + 1){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.art-section > div.anuncio{
+    grid-column: 1;
+    grid-row: 1/5;
+    border-top: 10px solid red;
+    display: block;
+}
